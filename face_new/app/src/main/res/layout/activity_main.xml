@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="80dp" />
+        <Button
+            android:textSize="20sp"
+            android:id="@+id/in"
+            android:layout_width="300dp"
+            android:layout_height="55dp"
+            android:text="录入"
+            android:background="@drawable/btn_2"
+            android:layout_gravity="center_horizontal"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="15dp" />
+
+        <Button
+            android:textSize="20sp"
+            android:id="@+id/opt"
+            android:layout_width="300dp"
+            android:layout_height="55dp"
+            android:text="打卡"
+            android:background="@drawable/btn_2"
+            android:layout_gravity="center_horizontal"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="15dp" />
+
+        <Button
+            android:textSize="20sp"
+            android:id="@+id/change"
+            android:layout_width="300dp"
+            android:layout_height="55dp"
+            android:text="查询"
+            android:background="@drawable/btn_2"
+            android:layout_gravity="center_horizontal"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="15dp" />
+
+        <Button
+            android:textSize="20sp"
+            android:id="@+id/delete"
+            android:layout_width="300dp"
+            android:layout_height="55dp"
+            android:text="删除人脸信息"
+            android:background="@drawable/btn_2"
+            android:layout_gravity="center_horizontal"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="15dp" />
+
+        <Button
+            android:textSize="20sp"
+            android:id="@+id/out"
+            android:layout_width="300dp"
+            android:layout_height="55dp"
+            android:text="退出程序"
+            android:background="@drawable/btn_2"
+            android:layout_gravity="center_horizontal"/>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
